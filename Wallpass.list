@@ -1085,14 +1085,14 @@ HOST-SUFFIX,static.app.m.letv.com,AdBlock
 HOST-SUFFIX,webp2p.letv.com,AdBlock
 HOST-SUFFIX,zamplus.com,AdBlock
 
-# > YouTube
-HOST-SUFFIX,azabu-u.ac.jp,AdBlock
-HOST-SUFFIX,couchcoaster.jp,AdBlock
-HOST-SUFFIX,delivery.dmkt-sp.jp,AdBlock
-HOST-SUFFIX,ehg-youtube.hitbox.com,AdBlock
+# > YouTube Ads
+HOST-SUFFIX,azabu-u.ac.jp,Wallpass
+HOST-SUFFIX,couchcoaster.jp,Wallpass
+HOST-SUFFIX,delivery.dmkt-sp.jp,Wallpass
+HOST-SUFFIX,ehg-youtube.hitbox.com,Wallpass
 HOST-SUFFIX,m-78.jp,AdBlock
-HOST-SUFFIX,nichibenren.or.jp,AdBlock
-HOST-SUFFIX,nicorette.co.kr,AdBlock
+HOST-SUFFIX,nichibenren.or.jp,Wallpass
+HOST-SUFFIX,nicorette.co.kr,Wallpass
 
 # > Sohu
 HOST-SUFFIX,adnet.sohu.com,AdBlock
