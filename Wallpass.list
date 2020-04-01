@@ -866,10 +866,10 @@ HOST-KEYWORD,beetalk,Wallpass
 HOST-KEYWORD,blogspot,Wallpass
 HOST-KEYWORD,dropbox,Wallpass
 
-HOST-SUFFIX,dropbox.com,PROXY
-HOST-SUFFIX,dropboxusercontent.com,PROXY
-DOMAIN,api.dropboxapi.com,PROXY
-DOMAIN,notify.dropboxapi.com,PROXY
+HOST-SUFFIX,dropbox.com,Wallpass
+HOST-SUFFIX,dropboxusercontent.com,Wallpass
+HOST-SUFFIX,api.dropboxapi.com,Wallpass
+HOST-SUFFIX,notify.dropboxapi.com,Wallpass
 HOST-KEYWORD,facebook,Wallpass
 HOST-KEYWORD,github,Wallpass
 HOST-KEYWORD,instagram,Wallpass
