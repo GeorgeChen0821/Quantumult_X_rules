@@ -180,11 +180,11 @@ DOMAIN-SUFFIX,sndcdn.com,Wallpass
 DOMAIN-SUFFIX,soundcloud.com,Wallpass
 
 # > Spotify
-USER-AGENT,Spotify*,Wallpass
-HOST-SUFFIX,pscdn.co,Wallpass
-HOST-SUFFIX,scdn.co,Wallpass
-HOST-SUFFIX,spoti.fi,Wallpass
-HOST-SUFFIX,spotify.com,Wallpass
+USER-AGENT,Spotify*,Spotify
+HOST-SUFFIX,pscdn.co,Spotify
+HOST-SUFFIX,scdn.co,Spotify
+HOST-SUFFIX,spoti.fi,Spotify
+HOST-SUFFIX,spotify.com,Spotify
 
 # > YouTube
 USER-AGENT,*youtube*,Wallpass
@@ -9377,38 +9377,37 @@ IP-CIDR,54.230.156.0/22,Wallpass
 IP-CIDR,54.93.0.0/16,Wallpass
 
 # > Apple
-USER-AGENT,*com.apple.mobileme.fmip1,Wallpass
-USER-AGENT,*WeatherFoundation*,Wallpass
-USER-AGENT,%E5%9C%B0%E5%9B%BE*,Wallpass
-USER-AGENT,%E6%9F%A5%E6%89%BE*,Wallpass
-USER-AGENT,%E8%AE%BE%E7%BD%AE*,Wallpass
-USER-AGENT,AppStore*,Wallpass
-USER-AGENT,com.apple.appstored*,Wallpass
-USER-AGENT,com.apple.geod*,Wallpass
-USER-AGENT,com.apple.Maps,Wallpass
-USER-AGENT,FindMy*,Wallpass
-USER-AGENT,FMDClient*,Wallpass
-USER-AGENT,FMFD*,Wallpass
-USER-AGENT,fmflocatord*,Wallpass
-USER-AGENT,geod*,Wallpass
-USER-AGENT,locationd*,Wallpass
-USER-AGENT,Maps*,Wallpass
-USER-AGENT,TestFlight*,Wallpass
-HOST-SUFFIX,apple.co,Wallpass
-HOST-SUFFIX,apple.com,Wallpass
-HOST-SUFFIX,apple.com.cn,Wallpass
-HOST-SUFFIX,apple-cloudkit.com,Wallpass
-HOST-SUFFIX,appstore.com,Wallpass
-HOST-SUFFIX,cdn-apple.com,Wallpass
-HOST-SUFFIX,crashlytics.com,Wallpass
-HOST-SUFFIX,icloud.com,Wallpass
-HOST-SUFFIX,icloud.com.cn,Wallpass
-HOST-SUFFIX,icloud-content.com,Wallpass
-HOST-SUFFIX,itunes.com,Wallpass
-HOST-SUFFIX,me.com,Wallpass
-HOST-SUFFIX,mzstatic.com,Wallpass
-HOST,api.smoot.apple.cn,Wallpass
-
+USER-AGENT,*com.apple.mobileme.fmip1,Apple
+USER-AGENT,*WeatherFoundation*,Apple
+USER-AGENT,%E5%9C%B0%E5%9B%BE*,Apple
+USER-AGENT,%E6%9F%A5%E6%89%BE*,Apple
+USER-AGENT,%E8%AE%BE%E7%BD%AE*,Apple
+USER-AGENT,AppStore*,Apple
+USER-AGENT,com.apple.appstored*,Apple
+USER-AGENT,com.apple.geod*,Apple
+USER-AGENT,com.apple.Maps,Apple
+USER-AGENT,FindMy*,Apple
+USER-AGENT,FMDClient*,Apple
+USER-AGENT,FMFD*,Apple
+USER-AGENT,fmflocatord*,Apple
+USER-AGENT,geod*,Apple
+USER-AGENT,locationd*,Apple
+USER-AGENT,Maps*,Apple
+USER-AGENT,TestFlight*,Apple
+HOST-SUFFIX,apple.co,Apple
+HOST-SUFFIX,apple.com,Apple
+HOST-SUFFIX,apple.com.cn,Apple
+HOST-SUFFIX,apple-cloudkit.com,Apple
+HOST-SUFFIX,appstore.com,Apple
+HOST-SUFFIX,cdn-apple.com,Apple
+HOST-SUFFIX,crashlytics.com,Apple
+HOST-SUFFIX,icloud.com,Apple
+HOST-SUFFIX,icloud.com.cn,Apple
+HOST-SUFFIX,icloud-content.com,Apple
+HOST-SUFFIX,itunes.com,Apple
+HOST-SUFFIX,me.com,Apple
+HOST-SUFFIX,mzstatic.com,Apple
+HOST,api.smoot.apple.cn,Apple
 
 # > Fast
 HOST-SUFFIX,fast.com,Speedtest
@@ -9690,7 +9689,4 @@ DOMAIN-SUFFIX,yuanchengxiezuo.com,Hijacking
 DOMAIN-SUFFIX,zbrushcn.com,Hijacking
 DOMAIN-SUFFIX,zhzzx.com,Hijacking
 
-
 # > Others
-
-
