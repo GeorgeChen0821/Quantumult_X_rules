@@ -180,11 +180,11 @@ HOST-SUFFIX,sndcdn.com,Wallpass
 HOST-SUFFIX,soundcloud.com,Wallpass
 
 # > Spotify
-USER-AGENT,Spotify*,Spotify
-HOST-SUFFIX,pscdn.co,Spotify
-HOST-SUFFIX,scdn.co,Spotify
-HOST-SUFFIX,spoti.fi,Spotify
-HOST-SUFFIX,spotify.com,Spotify
+USER-AGENT,Spotify*,Wallpass
+HOST-SUFFIX,pscdn.co,Wallpass
+HOST-SUFFIX,scdn.co,Wallpass
+HOST-SUFFIX,spoti.fi,Wallpass
+HOST-SUFFIX,spotify.com,Wallpass
 
 # > YouTube
 USER-AGENT,*youtube*,Wallpass
