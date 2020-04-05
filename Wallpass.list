@@ -131,7 +131,7 @@ HOST-SUFFIX,mytvsuper.com,Wallpass
 HOST-SUFFIX,tvb.com,Wallpass
 
 # > Netflix
-USER-AGENT,Argo*,Wallpass
+USER-AGENT,Argo*,Netflix
 HOST-SUFFIX,netflix.com,Netflix
 HOST-SUFFIX,netflix.net,Netflix
 HOST-SUFFIX,nflxext.com,Netflix
@@ -165,9 +165,9 @@ IP-CIDR,174.37.0.0/16,Wallpass
 IP-CIDR,208.43.0.0/16,Wallpass
 
 # Speedtest
-USER-AGENT,SpeedTest*,Speedtest
-HOST-KEYWORD,speedtest,Speedtest
-HOST-SUFFIX,ooklaserver.net,Speedtest
+USER-AGENT,SpeedTest*,Wallpass
+HOST-KEYWORD,speedtest,Wallpass
+HOST-SUFFIX,ooklaserver.net,Wallpass
 
 # > Sky GO
 USER-AGENT,skygo*,Wallpass
@@ -255,20 +255,20 @@ HOST-SUFFIX,steampowered.com,Wallpass
 HOST-SUFFIX,steamstatic.com,Wallpass
 
 # > Telegram
-HOST-KEYWORD,telegram,Telegram
-HOST-SUFFIX,t.me,Telegram
-HOST-SUFFIX,tdesktop.com,Telegram
-HOST-SUFFIX,telegra.ph,Telegram
-HOST-SUFFIX,telegram.me,Telegram
-HOST-SUFFIX,telegram.org,Telegram
-IP-CIDR,91.108.4.0/22,Telegram
-IP-CIDR,91.108.56.0/22,Telegram
-IP-CIDR,91.108.56.0/23,Telegram
-IP-CIDR,109.239.140.0/24,Telegram
-IP-CIDR,149.154.160.0/22,Telegram
-IP-CIDR,149.154.164.0/22,Telegram
-IP-CIDR,149.154.168.0/22,Telegram
-IP-CIDR,149.154.172.0/22,Telegram
+HOST-KEYWORD,telegram,Wallpass
+HOST-SUFFIX,t.me,Wallpass
+HOST-SUFFIX,tdesktop.com,Wallpass
+HOST-SUFFIX,telegra.ph,Wallpass
+HOST-SUFFIX,telegram.me,Wallpass
+HOST-SUFFIX,telegram.org,Wallpass
+IP-CIDR,91.108.4.0/22,Wallpass
+IP-CIDR,91.108.56.0/22,Wallpass
+IP-CIDR,91.108.56.0/23,Wallpass
+IP-CIDR,109.239.140.0/24,Wallpass
+IP-CIDR,149.154.160.0/22,Wallpass
+IP-CIDR,149.154.164.0/22,Wallpass
+IP-CIDR,149.154.168.0/22,Wallpass
+IP-CIDR,149.154.172.0/22,Wallpass
 
 # > TikTok
 USER-AGENT,TikTok*,Wallpass
@@ -9409,8 +9409,6 @@ HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,mzstatic.com,Apple
 HOST,api.smoot.apple.cn,Apple
 
-# > Fast
-HOST-SUFFIX,fast.com,Speedtest
 
 # > Facebook
 IP-CIDR,103.4.96.0/22,Wallpass
@@ -9622,14 +9620,17 @@ IP-CIDR,222.73.156.235/32,Hijacking,no-resolve
 # > 快压
 # https://zhuanlan.zhihu.com/p/39534279
 HOST-SUFFIX,kuaizip.com,Hijacking
+
 # > MacKeeper
 # https://www.lizhi.io/blog/40002904
 HOST-SUFFIX,mackeeper.com,Hijacking
 HOST-SUFFIX,zryydi.com,Hijacking
+
 # > Adobe Flash China Special Edition
 # https://www.zhihu.com/question/281163698/answer/441388130
 HOST-SUFFIX,flash.cn,Hijacking
 DOMAIN,geo2.adobe.com,Hijacking
+
 # > C&J Marketing 思杰马克丁软件
 # https://www.zhihu.com/question/46746200
 HOST-SUFFIX,4009997658.com,Hijacking
