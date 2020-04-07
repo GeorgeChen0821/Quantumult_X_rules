@@ -2,34 +2,11 @@
 
 # > Giphy.com 动图
 HOST-SUFFIX,giphy.com,Wallpass
-
 # > 荒野乱斗
 DOMAIN-SUFFIX,brawlstarsgame.com,Proxy
+# > 火焰纹章
+HOST-SUFFIX,fire-emblem-heroes.com,Japan
 
-# > Netflix
-USER-AGENT,Argo*,Netflix
-HOST-SUFFIX,netflix.com,Netflix
-HOST-SUFFIX,netflix.net,Netflix
-HOST-SUFFIX,nflxext.com,Netflix
-HOST-SUFFIX,nflximg.com,Netflix
-HOST-SUFFIX,nflximg.net,Netflix
-HOST-SUFFIX,nflxso.net,Netflix
-HOST-SUFFIX,nflxvideo.net,Netflix
-IP-CIDR,8.41.4.0/24,Netflix
-IP-CIDR,23.246.0.0/18,Netflix
-IP-CIDR,37.77.184.0/21,Netflix
-IP-CIDR,45.57.0.0/17,Netflix
-IP-CIDR,64.120.128.0/17,Netflix
-IP-CIDR,66.197.128.0/17,Netflix
-IP-CIDR,69.53.224.0/19,Netflix
-IP-CIDR,108.175.32.0/20,Netflix
-IP-CIDR,185.2.220.0/22,Netflix
-IP-CIDR,185.9.188.0/22,Netflix
-IP-CIDR,192.173.64.0/18,Netflix
-IP-CIDR,198.38.96.0/19,Netflix
-IP-CIDR,198.45.48.0/20,Netflix
-IP-CIDR,207.45.72.0/22,Netflix
-IP-CIDR,208.75.76.0/22,Netflix
 
 # > ABC
 HOST-SUFFIX,edgedatg.com,Wallpass
@@ -162,6 +139,31 @@ HOST-SUFFIX,linetv.tw,Wallpass
 USER-AGENT,mytv*,Wallpass
 HOST-SUFFIX,mytvsuper.com,Wallpass
 HOST-SUFFIX,tvb.com,Wallpass
+
+# > Netflix
+USER-AGENT,Argo*,Netflix
+HOST-SUFFIX,netflix.com,Netflix
+HOST-SUFFIX,netflix.net,Netflix
+HOST-SUFFIX,nflxext.com,Netflix
+HOST-SUFFIX,nflximg.com,Netflix
+HOST-SUFFIX,nflximg.net,Netflix
+HOST-SUFFIX,nflxso.net,Netflix
+HOST-SUFFIX,nflxvideo.net,Netflix
+IP-CIDR,8.41.4.0/24,Netflix,no-resolve
+IP-CIDR,23.246.0.0/18,Netflix,no-resolve
+IP-CIDR,37.77.184.0/21,Netflix,no-resolve
+IP-CIDR,45.57.0.0/17,Netflix,no-resolve
+IP-CIDR,64.120.128.0/17,Netflix,no-resolve
+IP-CIDR,66.197.128.0/17,Netflix,no-resolve
+IP-CIDR,69.53.224.0/19,Netflix,no-resolve
+IP-CIDR,108.175.32.0/20,Netflix,no-resolve
+IP-CIDR,185.2.220.0/22,Netflix,no-resolve
+IP-CIDR,185.9.188.0/22,Netflix,no-resolve
+IP-CIDR,192.173.64.0/18,Netflix,no-resolve
+IP-CIDR,198.38.96.0/19,Netflix,no-resolve
+IP-CIDR,198.45.48.0/20,Netflix,no-resolve
+IP-CIDR,207.45.72.0/22,Netflix,no-resolve
+IP-CIDR,208.75.76.0/22,Netflix,no-resolve
 
 # > Pandora
 HOST-SUFFIX,pandora.com,Wallpass
@@ -9435,6 +9437,9 @@ IP-CIDR,69.171.224.0/19,Wallpass
 IP-CIDR,69.63.176.0/20,Wallpass
 IP-CIDR,74.119.76.0/22,Wallpass
 
+# > Giphy.com 动图
+HOST-SUFFIX,giphy.com,Wallpass
+
 # > Google
 IP-CIDR,173.194.0.0/16,Wallpass
 IP-CIDR,74.125.0.0/16,Wallpass
@@ -9697,6 +9702,3 @@ HOST-SUFFIX,yihuifu.cn,Hijacking
 HOST-SUFFIX,yuanchengxiezuo.com,Hijacking
 HOST-SUFFIX,zbrushcn.com,Hijacking
 HOST-SUFFIX,zhzzx.com,Hijacking
-
-# > Others
-HOST-SUFFIX,fire-emblem-heroes.com,Japan
