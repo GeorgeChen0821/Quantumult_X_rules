@@ -9427,6 +9427,9 @@ IP-CIDR,69.171.224.0/19,Wallpass
 IP-CIDR,69.63.176.0/20,Wallpass
 IP-CIDR,74.119.76.0/22,Wallpass
 
+# > Giphy.com 动图
+HOST-SUFFIX,giphy.com,Wallpass
+
 # > Google
 IP-CIDR,173.194.0.0/16,Wallpass
 IP-CIDR,74.125.0.0/16,Wallpass
